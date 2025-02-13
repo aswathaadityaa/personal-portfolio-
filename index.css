@@ -11,6 +11,7 @@
   background-color: black;
   height: 100vh;
   font-family: "Mulish", serif;
+  width: 100%;
 }
 
 .navBar {
@@ -122,6 +123,7 @@
 .education {
   display: grid;
   grid-template-columns: 8fr 1fr 8fr;
+  font-size: small;
 }
 
 .TimeLine {
@@ -145,7 +147,7 @@
 
 .eduBoxL {
   text-align: right;
-  width: 70%;
+  width: 100%;
   height: 40%;
 }
 
@@ -158,8 +160,8 @@
 
 .eduBoxR {
   text-align: left;
-  width: 70%;
-  height: 40%;
+  width: 100%;
+  height: 60%;
 }
 
 .page3 {
@@ -177,7 +179,7 @@
   grid-template-rows: repeat(2, 1fr);
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 2em;
   width: 70%;
   margin: auto;
   height: 70vh;
@@ -210,11 +212,56 @@
 }
 
 .projectbox {
-  width: 70%;
-  height: 80%;
+  width: 60%;
+  height: 70%;
   background-color: black;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
+  padding: 10%;
   border-radius: 2rem;
+  flex-direction: column;
+}
+
+.projectCiricle {
+  width: 10vh;
+  height: 10vh;
+  background-color: rgb(3, 255, 238);
+  border-radius: 50%;
+}
+
+.projectHeading {
+  color: rgb(3, 255, 238);
+  font-size: large;
+}
+
+.projectDetails {
+  color: white;
+  font-size: x-small;
+}
+
+.ProjectImgae {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1300px) {
+  .circle {
+    width: 26vh;
+    height: 26vh;
+  }
+
+  .profileImage {
+    top: -16%;
+    height: 33vh;
+    width: 25vh;
+  }
+  .middleSec {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    gap: 7%;
+  }
 }
