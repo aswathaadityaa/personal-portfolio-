@@ -147,7 +147,7 @@
 
 .eduBoxL {
   text-align: right;
-  width: 100%;
+  width: 70%;
   height: 40%;
 }
 
@@ -160,8 +160,8 @@
 
 .eduBoxR {
   text-align: left;
-  width: 100%;
-  height: 60%;
+  width: 70%;
+  height: 40%;
 }
 
 .page3 {
@@ -246,6 +246,102 @@
   justify-content: center;
   width: 100%;
   height: 100%;
+}
+
+.page5 {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  font-family: "Mulish", serif;
+  color: white;
+  display: grid;
+  grid-template-rows: 2fr 7fr;
+}
+
+.contactMeContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.personDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+.msg-Submit {
+  display: grid;
+  grid-template-rows: 3fr, 1fr;
+  align-items: center;
+  justify-content: start;
+}
+
+.personDetailsAligncenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: -7%;
+  width: 80vh;
+}
+
+.personDetails input {
+  width: 70%;
+  padding: 12px 20px;
+  border: 3px solid rgb(3, 255, 238);
+  border-radius: 1em;
+  background-color: black;
+  outline-color: rgb(3, 255, 238);
+  color: white;
+}
+
+.msg-Submit textarea {
+  background-color: black;
+  border-color: rgb(3, 255, 238);
+  border-radius: 2em;
+}
+
+.fixed-textarea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 200px;
+  resize: none;
+  border: 3px solid #ccc;
+  outline-color: rgb(3, 255, 238);
+  padding: 20px;
+  overflow: auto;
+  box-sizing: border-box;
+  color: white;
+  font-size: 16px;
+  scrollbar-color: black;
+}
+
+textarea::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+}
+
+textarea::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.sendBtn {
+  border-color: rgb(3, 255, 238);
+  border-radius: 2rem;
+  width: 20vh;
+  height: 5vh;
+  background-color: rgb(3, 255, 238);
+  color: black;
+  font-size: medium;
+  font-weight: 700;
 }
 
 @media (max-width: 1300px) {
