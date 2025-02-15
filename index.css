@@ -164,6 +164,15 @@
   height: 40%;
 }
 
+.eduyearLeft {
+  position: relative;
+  left: 40px;
+}
+
+.eduyearRight {
+  position: relative;
+  right: 40px;
+}
 .page3 {
   width: 100%;
   height: 100vh;
@@ -187,7 +196,7 @@
 .skillBoxes {
   background-color: rgb(3, 255, 238);
   width: 80%;
-  height: 80%;
+  height: 60%;
   border-radius: 2rem;
   border: 30px solid rgb(3, 255, 238);
   display: flex;
@@ -359,5 +368,62 @@ textarea::-webkit-scrollbar-track {
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr;
     gap: 7%;
+  }
+  .contactMeContainer {
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .fourSkillBoxes {
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: none;
+    gap: 0em;
+  }
+  .ProjectBoxes {
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: none;
+    gap: 7em;
+  }
+  .page3 {
+    height: 140vh;
+    grid-template-rows: 10vh 90vh;
+  }
+  .eduyearLeft {
+    position: block;
+    left: 0px;
+  }
+  .eduyearRight {
+    position: block;
+    right: 0px;
+  }
+  .eduBoxR {
+    text-align: left;
+    width: 90%;
+    height: 40%;
+  }
+  .eduBoxL {
+    text-align: right;
+    width: 90%;
+    height: 40%;
+  }
+
+  .middle {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 15%;
+  }
+
+  .name {
+    font-size: x-small;
+  }
+}
+
+@media (max-width: 400px) {
+  .middleSec {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    gap: 5%;
   }
 }
