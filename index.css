@@ -194,14 +194,15 @@
   height: 70vh;
 }
 .skillBoxes {
-  background-color: rgb(3, 255, 238);
+  background-color: rgb(17, 16, 16);
   width: 80%;
   height: 60%;
   border-radius: 2rem;
-  border: 30px solid rgb(3, 255, 238);
+  border: 30px solid rgb(17, 16, 16);
   display: flex;
   flex-direction: column;
   justify-content: center;
+  color: white;
 }
 
 .page4 {
