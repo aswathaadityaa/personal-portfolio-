@@ -88,8 +88,8 @@
 }
 
 .circle {
-  width: 50vh;
-  height: 50vh;
+  width: 52vh;
+  height: 52vh;
   background-color: rgb(3, 255, 238);
   border-radius: 50%;
   display: flex;
@@ -98,9 +98,9 @@
 
 .profileImage {
   position: relative;
-  top: -18%;
-  height: 65vh;
-  width: 49vh;
+  top: 2%;
+  height: 50vh;
+  width: 50vh;
 }
 
 .page2 {
@@ -357,11 +357,12 @@ textarea::-webkit-scrollbar-track {
   .circle {
     width: 26vh;
     height: 26vh;
+    position: relative;
+    top: -15%;
   }
 
   .profileImage {
-    top: -16%;
-    height: 33vh;
+    height: 25vh;
     width: 25vh;
   }
   .middleSec {
@@ -476,11 +477,12 @@ textarea::-webkit-scrollbar-track {
   .circle {
     width: 23vh;
     height: 23vh;
+    position: relative;
+    top: 5%;
   }
 
   .profileImage {
-    top: -16%;
-    height: 29vh;
+    height: 22vh;
     width: 22vh;
   }
 
@@ -503,9 +505,12 @@ textarea::-webkit-scrollbar-track {
   .TimeLine {
     height: 95%;
   }
+  .Page1 {
+    height: 120vh;
+  }
 }
 
-@media (min-width: 375px) and (max-width: 470px) and (min-height: 800px) {
+@media (min-width: 375px) and (max-width: 575px) and (min-height: 700px) {
   .page3 {
     height: 170vh;
   }
@@ -520,5 +525,8 @@ textarea::-webkit-scrollbar-track {
 @media (min-height: 900px) and (max-height: 1400px) and (min-width: 700px) and (max-width: 1050px) {
   .page3 {
     height: 110vh;
+  }
+  .circle {
+    top: 20%;
   }
 }
