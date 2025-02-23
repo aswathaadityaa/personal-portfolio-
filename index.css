@@ -426,7 +426,7 @@ textarea::-webkit-scrollbar-track {
   }
   .page3 {
     height: 140vh;
-    grid-template-rows: 10vh 90vh;
+    grid-template-rows: 10vh 75vh;
   }
   .eduyearLeft {
     position: block;
