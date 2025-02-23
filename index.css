@@ -2,6 +2,7 @@
 
 * {
   margin: 0%;
+  font-family: "Mulish", serif;
 }
 .Topbar {
   display: flex;
@@ -10,7 +11,6 @@
 .Page1 {
   background-color: black;
   height: 100vh;
-  font-family: "Mulish", serif;
   width: 100%;
 }
 
@@ -26,7 +26,23 @@
   justify-content: center;
   z-index: 1;
 }
+.PhnavBar {
+  display: none;
+}
+.sidebarPhone {
+  display: none;
+}
+.threeBar {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
 
+.lines {
+  width: 35px;
+  height: 3px;
+  background-color: rgb(3, 255, 238);
+}
 .navBar a {
   text-decoration: none;
   color: rgb(3, 255, 238);
@@ -173,6 +189,7 @@
   position: relative;
   right: 40px;
 }
+
 .page3 {
   width: 100%;
   height: 100vh;
@@ -203,6 +220,22 @@
   flex-direction: column;
   justify-content: center;
   color: white;
+}
+
+.hoverSkill :hover {
+  background-color: rgb(3, 255, 238);
+  border: 30px solid rgb(3, 255, 238);
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  height: 60%;
+  border-radius: 2rem;
+}
+
+.skillBoxHead {
+  color: rgb(3, 255, 238);
 }
 
 .page4 {
@@ -419,6 +452,7 @@ textarea::-webkit-scrollbar-track {
 
   .name {
     font-size: x-small;
+    text-wrap: nowrap;
   }
   .page4 {
     height: 150vh;
@@ -453,6 +487,62 @@ textarea::-webkit-scrollbar-track {
     align-items: center;
     justify-items: center;
     justify-content: center;
+  }
+  .navBar {
+    display: none;
+  }
+  .PhnavBar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    height: 7%;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: black;
+  }
+  .sidebarPhone {
+    width: 80%;
+    height: 100vh;
+    background-color: rgb(17, 16, 16);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .innerIcons {
+    width: 80%;
+    height: 100vh;
+    display: none;
+    background-color: rgb(17, 16, 16);
+    color: rgb(3, 255, 238);
+    position: fixed;
+    z-index: 2;
+    right: 0;
+  }
+  .closeIcon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+  .showSidebar {
+    display: flex;
+  }
+  .hideSidebar {
+    display: none;
+  }
+  .sidebarPhone a {
+    text-decoration: none;
+    color: rgb(3, 255, 238);
+    position: relative;
+    padding: 10%;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
   }
 }
 

@@ -7,6 +7,32 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
+    <div id="innerIcon" class="innerIcons">
+      <div id="closeSidebarPhone" class="closeIcon">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="42"
+          height="42"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="lucide lucide-x"
+        >
+          <path d="M18 6 6 18" />
+          <path d="m6 6 12 12" />
+        </svg>
+      </div>
+      <div class="sidebarPhone">
+        <div class="pages"><a href="#home">HOME</a></div>
+        <div class="pages"><a href="#education">EDUCATION</a></div>
+        <div class="pages"><a href="#skills">SKILLS</a></div>
+        <div class="pages"><a href="#projects">PROJECTS</a></div>
+        <div class="pages"><a href="#contactMe">CONTACT</a></div>
+      </div>
+    </div>
     <div class="Page1" id="home">
       <div class="navBar">
         <div class="name">
@@ -18,6 +44,19 @@
         <div><a href="#skills">SKILLS</a></div>
         <div><a href="#projects">PROJECTS</a></div>
         <div><a href="#contactMe">CONTACT</a></div>
+      </div>
+      <div class="PhnavBar">
+        <div></div>
+        <div class="name">
+          <h1>Aswath <span class="glow">Aadityaa</span></h1>
+        </div>
+        <div></div>
+        <div class="threeBar" id="settings">
+          <div class="lines"></div>
+          <div class="lines"></div>
+          <div class="lines"></div>
+        </div>
+        <div></div>
       </div>
       <div class="middle">
         <div class="middleSec">
@@ -184,7 +223,7 @@
       <div class="fourSkillBoxes">
         <div class="skillBoxes">
           <div>
-            <div><h2 style="color: rgb(3, 255, 238)">Web Development</h2></div>
+            <div><h2 class="skillBoxHead">Web Development</h2></div>
             <div>
               <br />
               <p>
@@ -197,7 +236,7 @@
           </div>
         </div>
         <div class="skillBoxes">
-          <div><h2 style="color: rgb(3, 255, 238)">Java</h2></div>
+          <div><h2 class="skillBoxHead">Java</h2></div>
           <div>
             <br />
             <p>
@@ -209,7 +248,7 @@
           </div>
         </div>
         <div class="skillBoxes">
-          <div><h2 style="color: rgb(3, 255, 238)">Blender</h2></div>
+          <div><h2 class="skillBoxHead">Blender</h2></div>
           <div>
             <br />
             <p>
@@ -221,7 +260,7 @@
           </div>
         </div>
         <div class="skillBoxes">
-          <div><h2 style="color: rgb(3, 255, 238)">Software Testing</h2></div>
+          <div><h2 class="skillBoxHead">Software Testing</h2></div>
           <div>
             <br />
             <p>
@@ -369,4 +408,5 @@
       </div>
     </div>
   </body>
+  <script src="index.js"></script>
 </html>
