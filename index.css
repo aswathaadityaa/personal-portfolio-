@@ -387,6 +387,10 @@ textarea::-webkit-scrollbar-track {
   font-weight: 700;
 }
 
+.closeIcon {
+  display: none;
+}
+
 @media (max-width: 1300px) {
   .circle {
     width: 26vh;
@@ -526,6 +530,7 @@ textarea::-webkit-scrollbar-track {
     position: absolute;
     right: 10px;
     top: 10px;
+    display: block;
   }
   .showSidebar {
     display: flex;
