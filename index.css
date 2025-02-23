@@ -506,7 +506,7 @@ textarea::-webkit-scrollbar-track {
   .sidebarPhone {
     width: 80%;
     height: 100vh;
-    background-clor: rgb(17, 16, 16);
+    background-color: rgb(17, 16, 16);
     display: flex;
     flex-direction: column;
     justify-content: center;
